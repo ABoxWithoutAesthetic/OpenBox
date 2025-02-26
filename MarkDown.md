@@ -17,7 +17,7 @@
 ## 外部图像
 1. 
 ![[FirstPicture.png|100]]
-2. [FirstPicture](D:\BaiduSyncdisk\ALittleSkull\Picture)
+1. [FirstPicture](D:\BaiduSyncdisk\ALittleSkull\Picture)
 ## 引号
 >提示
 >这是一个引用
@@ -40,7 +40,7 @@ ___
 ## 代码
 1. 内部代码
  - 反引号： `neibudaima`
-3. 代码块
+2. 代码块
 ```js
 import bpy   ''`''neibu`
 

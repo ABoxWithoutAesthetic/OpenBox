@@ -12,5 +12,8 @@
   "vimMode": false,
   "defaultViewMode": "preview",
   "livePreview": true,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "newLinkFormat": "absolute",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "图片"
 }

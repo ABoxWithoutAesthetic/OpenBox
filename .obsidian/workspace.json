@@ -87,24 +87,17 @@
             "id": "b51e145e4c3e3168",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Houdini/功能实现.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
+                "file": "Program/UE/UE功能模块/ActorSquence.canvas",
+                "viewState": {
+                  "x": 188.91575220583758,
+                  "y": 74.2040646219387,
+                  "zoom": -0.9999999999999998
                 }
               },
-              "icon": "lucide-file",
-              "title": "功能实现"
+              "icon": "lucide-layout-dashboard",
+              "title": "ActorSquence"
             }
           }
         ],
@@ -284,7 +277,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 313.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -301,10 +294,20 @@
   },
   "active": "b51e145e4c3e3168",
   "lastOpenFiles": [
-    "Houdini/功能实现.md.baiduyun.uploading.cfg",
+    "Program/UE/UE功能模块/Actor Component.md",
+    "Program/UE/塔防案例/塔防游戏要求.md",
+    "Program/UE/UE功能模块/像素流.md",
+    "Program/UE/UE功能模块/像素流.md.baiduyun.uploading.cfg",
+    "Program/UE/UE功能模块/WebView.md",
+    "Program/UE/UE功能模块/Web.md",
+    "Program/UE/UE功能模块/通信.md",
+    "Program/UE/UE功能模块/UMG.md",
+    "Program/UE/UE功能模块/Animation.md",
+    "Program/UE/UE功能模块/AI.md",
+    "Program/UE/UE功能模块/LocalizationDashboard.md",
     "MarkDown.md",
     "Houdini/功能实现.md",
-    "Program/UE/UE功能模块/LocalizationDashboard.md",
+    "Houdini/功能实现.md.baiduyun.uploading.cfg",
     "Program/UE/UE功能模块/LocalizationDashboard.md.baiduyun.uploading.cfg",
     "README.md",
     "regex-rulesets/index.txt.baiduyun.uploading.cfg",
@@ -325,7 +328,6 @@
     "Houdini/工作流.md",
     "Houdini/Vex.md",
     "Program/UE/UE性能优化.md",
-    "Program/C/Code/DynaMem.c.baiduyun.uploading.cfg",
     "图片/1739329040093.png",
     "图片/Pasted image 20250218010138.png",
     "图片/Pasted image 20250223031221.png",
@@ -339,14 +341,6 @@
     "Houdini/Pyhton.md",
     "未命名.md",
     "未命名.canvas",
-    "软件操作/Gaea.md",
-    "美术/地形.md",
-    "Program/C++/C++.md",
-    "Program/UE/UE功能模块/AI.md",
-    "Program/UE/U++.md",
-    "Program/UE/UEbug.md",
-    "Program/Python/Python.md",
-    "美术/贴图.md",
     "Program/UE/UE功能模块/ActorSquence.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas",

@@ -272,8 +272,7 @@
       "command-palette:打开命令面板": false,
       "publish:发布更改": false,
       "open-vscode:VSCode": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-regex-pipeline:Regex Rulesets": false
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
   "active": "b51e145e4c3e3168",

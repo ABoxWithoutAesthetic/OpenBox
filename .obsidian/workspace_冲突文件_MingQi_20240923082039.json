@@ -1,0 +1,276 @@
+{
+  "main": {
+    "id": "f8c1ff5b739ac5f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "64626bd7ba3783d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2742ac059bf28e66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Houdini/Houdini波坍塌函数.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5505bc6841e9db2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UE开发/UE开发.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2920b495030302c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UE美术/灯光.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fdd1aeaaf15bfe10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计划表/待做任务.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c52481cc6b209ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计划表/待做任务.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1f5677418a7c3622",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f257ba09ce8d931",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e21c8ee5045dd6a3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "b516058bd6598534",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d94846d8d2f92eb0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301.5
+  },
+  "right": {
+    "id": "81d39f3c913d92b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "385033644cfcb3da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0af486211fef4f73",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "计划表/待做任务.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "c856b861ef0a1d24",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "计划表/待做任务.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "5720c2aa13a9456b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2fe61572a0a471bb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "计划表/待做任务.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "9d95bc5e9fbf2ea5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7c470dcaaba6ad0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 279.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "publish:发布更改": false
+    }
+  },
+  "active": "9c52481cc6b209ab",
+  "lastOpenFiles": [
+    "UE美术/案例.md",
+    "计划表/Pasted image 20240827090003(1).png.baiduyun.downloading.cfg",
+    "计划表/Pasted image 20240827090003(1).png.baiduyun.downloading",
+    "计划表/Pasted image 20240827090136(1).png.baiduyun.downloading.cfg",
+    "计划表/Pasted image 20240827090136(1).png.baiduyun.downloading",
+    "计划表/Pasted image 20240827085911(1).png.baiduyun.downloading.cfg",
+    "计划表/Pasted image 20240827085911(1).png.baiduyun.downloading",
+    "计划表/Pasted image 20240827085739(1).png.baiduyun.downloading.cfg",
+    "计划表/Pasted image 20240827085739(1).png.baiduyun.downloading",
+    "UE美术/案例.md.baiduyun.uploading.cfg",
+    "UE美术/UE美术案例/未命名.md.baiduyun.uploading.cfg",
+    "计划表/待做任务.md",
+    "UE美术/UE美术案例/汽车追逐.md",
+    "UE美术/UE美术案例/打斗镜头.md",
+    "UE必备技能、插件、资产.md",
+    "素材链接.md",
+    "UE美术/植被.md",
+    "代码库/Python.md",
+    "Houdini/Houdini波坍塌函数.md",
+    "Houdini/Houdini风车小镇.md",
+    "Houdini/Houdini基础学习笔记.md",
+    "UE美术/灯光.md",
+    "UE美术/地形.md",
+    "UE开发/UE开发.md",
+    "MarkDown.md",
+    "ComfyUI_SVD.md",
+    "计划表/Pasted image 20240827085739.png",
+    "计划表/Pasted image 20240827085911.png",
+    "计划表/Pasted image 20240827090003.png",
+    "计划表/Pasted image 20240827090136.png",
+    "UE美术/贴图.md",
+    "图片/Pasted image 20240820173134.png",
+    "UE插件/SnappyRoads.md",
+    "图片/Pasted image 20240820141433.png",
+    "图片/Pasted image 20240801222538.png",
+    "UE开发/塔防案例/塔防案例.md",
+    "UE开发/塔防案例/塔防游戏要求.md",
+    "图片/Pasted image 20240722230500.png",
+    "UE开发/UE功能/AI.md",
+    "UE开发/UEbug.md",
+    "output/AI.md",
+    "output/attachment/b8d018c79ff78ee4bbeaaabeb4e8acf7.png",
+    "output/attachment/0e2949443f3985930f0fccb4c8509bce.png",
+    "UE插件/Advanced Fade Objects.md",
+    "软件操作/Blender.md",
+    "信義四期切洗印刷/五场夹层玻璃动画.canvas",
+    "信義四期切洗印刷/五场钢化玻璃动画.canvas",
+    "UE开发/UE功能/ActorSquence.canvas",
+    "未命名.canvas",
+    "信義四期切洗印刷/五场钢化动画循环.canvas",
+    "Programmer/TowerDefenceDemand.canvas",
+    "信义4.canvas",
+    "信义四期--海南厂区.canvas",
+    "baiban.canvas"
+  ]
+}

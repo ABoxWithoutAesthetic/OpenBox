@@ -1,0 +1,323 @@
+{
+  "main": {
+    "id": "f8c1ff5b739ac5f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d7a3ccbda21c1ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "561cb8ddcd9131fc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Program/C/C语言.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "C语言"
+            }
+          },
+          {
+            "id": "af58d8fc425a702e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Program/C/教程课件/第21讲：动态内存管理.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "第21讲：动态内存管理"
+            }
+          },
+          {
+            "id": "d580c72355debe40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MarkDown.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MarkDown"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1f5677418a7c3622",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f257ba09ce8d931",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e21c8ee5045dd6a3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "b516058bd6598534",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "d94846d8d2f92eb0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "f45c4bb9bc5e5708",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Program/C/C语言.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "C语言"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 353.5
+  },
+  "right": {
+    "id": "81d39f3c913d92b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "385033644cfcb3da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0af486211fef4f73",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "图片/Pasted image 20250218010138.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Pasted image 20250218010138 的反向链接列表"
+            }
+          },
+          {
+            "id": "c856b861ef0a1d24",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "图片/Pasted image 20250218010138.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Pasted image 20250218010138 的出链列表"
+            }
+          },
+          {
+            "id": "5720c2aa13a9456b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "2fe61572a0a471bb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Program/C/C语言.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "C语言 的大纲"
+            }
+          },
+          {
+            "id": "ced4f8e966842074",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "9d95bc5e9fbf2ea5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7c470dcaaba6ad0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 402.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "publish:发布更改": false,
+      "open-vscode:VSCode": false,
+      "oz-clear-unused-images:Clear Unused Images": false
+    }
+  },
+  "active": "d580c72355debe40",
+  "lastOpenFiles": [
+    "ComfyUI_SVD.md",
+    "UE插件、资产收藏.md",
+    "README.md",
+    "MarkDown.md",
+    "Program/UE/UE功能模块/LocalizationDashboard.md",
+    "Houdini/工作流.md",
+    "Houdini/功能实现.md",
+    "Houdini/Vex.md",
+    "Program/UE/UE性能优化.md",
+    "Program/C/C语言.md",
+    "Program/C/教程课件/第21讲：动态内存管理.pdf",
+    "Program/C/Code/DynaMem.c.baiduyun.uploading.cfg",
+    "Program/C/Code/DynaMem.c~RF440b7bc1.TMP",
+    "Program/C/Code/c34nl52o.tka~",
+    "Program/C/Code/DynaMem.c~RF440b34d5.TMP",
+    "Program/C/Code/DynaMem.c~RF4407eee1.TMP",
+    "Program/C/Code/DynaMem.c~RF44076157.TMP",
+    "Program/C/Code/DynaMem.c~RF43bd4403.TMP",
+    "Program/C/Code/DynaMem.c~RF43bd3388.TMP",
+    "Program/C/Code/DynaMem.c~RF43bb7de9.TMP",
+    "图片/1739329040093.png",
+    "图片/Pasted image 20250218010138.png",
+    "图片/Pasted image 20250223031221.png",
+    "图片/Pasted image 20250223031540.png",
+    "图片/Pasted image 20241025001121.png",
+    "图片/Pasted image 20240722230500.png",
+    "图片/Pasted image 20240606091150.png",
+    "图片/Pasted image 20240602004650.png",
+    "图片/Pasted image 20240602004645.png",
+    "图片/Pasted image 20240602004617.png",
+    "Houdini/Vop.md",
+    "未命名/123.md",
+    "Houdini/Node.md",
+    "Program/UE/Blueprint.md",
+    "Houdini/未命名.md",
+    "Houdini/Pyhton.md",
+    "未命名.md",
+    "未命名.canvas",
+    "软件操作/Gaea.md",
+    "美术/地形.md",
+    "Program/C++/C++.md",
+    "Program/UE/UE功能模块/AI.md",
+    "Program/UE/U++.md",
+    "Program/UE/UEbug.md",
+    "Program/Python/Python.md",
+    "美术/贴图.md",
+    "美术/色彩.md",
+    "Program/UE/UE功能模块/ActorSquence.canvas",
+    "未命名 1.canvas",
+    "未命名 2.canvas",
+    "信義四期切洗印刷/五场夹层玻璃动画.canvas",
+    "信義四期切洗印刷/五场钢化玻璃动画.canvas",
+    "信義四期切洗印刷/五场钢化动画循环.canvas",
+    "Programmer/TowerDefenceDemand.canvas",
+    "信义4.canvas",
+    "信义四期--海南厂区.canvas"
+  ]
+}

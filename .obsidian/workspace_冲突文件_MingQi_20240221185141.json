@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "f8c1ff5b739ac5f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "c028f350d915aca9",
+        "type": "tabs",
+        "dimension": 58.05529075309819,
+        "children": [
+          {
+            "id": "6e82bcc5f24d14a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UE必备技能、插件、资产.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "83b89169b8ebd94b",
+        "type": "tabs",
+        "dimension": 41.94470924690181,
+        "children": [
+          {
+            "id": "3898bee3e4171c5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UE必备技能、插件、资产.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a8aa39e1ab6f9097",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "性能优化.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1f5677418a7c3622",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f257ba09ce8d931",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e21c8ee5045dd6a3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b516058bd6598534",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d94846d8d2f92eb0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "81d39f3c913d92b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "385033644cfcb3da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0af486211fef4f73",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "UE必备技能、插件、资产.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c856b861ef0a1d24",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "UE必备技能、插件、资产.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "5720c2aa13a9456b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2fe61572a0a471bb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "UE必备技能、插件、资产.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "9d95bc5e9fbf2ea5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7c470dcaaba6ad0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 527.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "3898bee3e4171c5b",
+  "lastOpenFiles": [
+    "性能优化.md",
+    "Art/Art.md",
+    "Programmer/Programmer.md",
+    "Programmer/MarkDown.md",
+    "UE必备技能、插件、资产.md",
+    "UE必备技能、插件、资产.md.baiduyun.uploading.cfg",
+    "Gis素材获取.md",
+    "Picture/Pasted image 20240221102123.png.baiduyun.uploading.cfg",
+    "Picture/Pasted image 20240221102109.png.baiduyun.uploading.cfg",
+    "Picture/Pasted image 20240221102039.png.baiduyun.uploading.cfg",
+    "Picture/Pasted image 20240221100032.png.baiduyun.uploading.cfg",
+    "Picture/Pasted image 20240221095838.png.baiduyun.uploading.cfg",
+    "Picture/Pasted image 20240221095821.png.baiduyun.uploading.cfg",
+    "Picture/Pasted image 20240221095137.png.baiduyun.uploading.cfg",
+    "Picture/Pasted image 20240221095030.png.baiduyun.uploading.cfg",
+    "Gis素材获取.md.baiduyun.uploading.cfg",
+    "工程目录.md",
+    "Picture/Pasted image 20240221095030.png",
+    "Picture/Pasted image 20240221102123.png",
+    "Picture/Pasted image 20240221102109.png",
+    "Picture/Pasted image 20240221102039.png",
+    "Picture/Pasted image 20240221100032.png",
+    "Picture/Pasted image 20240221095838.png",
+    "Picture/Pasted image 20240221095821.png",
+    "Picture/Pasted image 20240221095137.png",
+    "Cesium for Unreal.md",
+    "Art/Blender.md",
+    "Picture/FirstPicture.png",
+    "baiban.canvas",
+    "Art/模型.md",
+    "Art/贴图.md",
+    "SubstanceDesigner.md",
+    "c++.md",
+    "Untitled.canvas",
+    "123/2862.png",
+    "UE.md",
+    "create a link.md",
+    "Welcome.md"
+  ]
+}

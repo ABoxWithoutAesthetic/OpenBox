@@ -1,0 +1,263 @@
+{
+  "main": {
+    "id": "f8c1ff5b739ac5f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa1dfb8bdf770a02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c7c53f77a65847e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UE必备技能、插件、资产.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fe30ec0249a33ceb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Houdini/Houdini风车小镇.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c888971abcf8472",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Houdini/Houdini风车小镇.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3900f540a835311d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Houdini/Houdini基础学习笔记.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1f5677418a7c3622",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f257ba09ce8d931",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e21c8ee5045dd6a3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "b516058bd6598534",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d94846d8d2f92eb0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 368.5
+  },
+  "right": {
+    "id": "81d39f3c913d92b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "385033644cfcb3da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0af486211fef4f73",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Houdini/Houdini风车小镇.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "c856b861ef0a1d24",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Houdini/Houdini风车小镇.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "5720c2aa13a9456b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2fe61572a0a471bb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Houdini/Houdini风车小镇.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "9d95bc5e9fbf2ea5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7c470dcaaba6ad0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 279.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false
+    }
+  },
+  "active": "9c888971abcf8472",
+  "lastOpenFiles": [
+    "Houdini/Houdini基础学习笔记.md",
+    "Houdini/Houdini风车小镇.md",
+    "Houdini/Houdini风车小镇.md.baiduyun.uploading.cfg",
+    "MarkDown.md",
+    "UE必备技能、插件、资产.md",
+    "UE开发/UE功能/ActorSquence.canvas.baiduyun.uploading.cfg",
+    "AI_SVD.md",
+    "Houdini/Houdini风车小镇(1).md.baiduyun.downloading.cfg",
+    "Houdini/Houdini风车小镇(1).md.baiduyun.downloading",
+    "Houdini/Houdini基础学习笔记(1).md.baiduyun.downloading.cfg",
+    "Houdini/Houdini基础学习笔记(1).md.baiduyun.downloading",
+    "Houdini/Houdini基础学习笔记.md.baiduyun.uploading.cfg",
+    "Pasted image 20240707201818.png.baiduyun.uploading.cfg",
+    "图片/Pasted image 20240707201818.png",
+    "Pasted image 20240707201544.png.baiduyun.uploading.cfg",
+    "图片/Pasted image 20240707201544.png",
+    "Untitled.md.baiduyun.uploading.cfg",
+    "软件操作/Blender.md",
+    "未命名.md",
+    "产品场景美术会议.md",
+    "UE插件/ProinstanceToolsPlugin.md",
+    "UE开发/UE功能/AI.md",
+    "UE开发/塔防案例/塔防案例.md",
+    "UE美术/灯光.md",
+    "UE插件/SnappyRoads.md",
+    "UE插件/Advanced Fade Objects.md",
+    "UE插件/FluidFlux.md",
+    "UE插件/PathFollow.md",
+    "UE美术/色彩.md",
+    "UE美术/Art.md",
+    "UE美术/模型.md",
+    "软件操作/Gaea.md",
+    "UE美术/UE美术案例/汽车追逐.md",
+    "信義四期切洗印刷/五场夹层玻璃动画.canvas",
+    "UE美术/地形.md",
+    "信義四期切洗印刷/五场钢化玻璃动画.canvas",
+    "UE开发/UE功能/ActorSquence.canvas",
+    "UE开发/UE功能/Animation.md",
+    "软件操作/Speedtree.md",
+    "图片/Pasted image 20240606091150.png",
+    "未命名.canvas",
+    "图片/Pasted image 20240602003528.png",
+    "图片/Pasted image 20240602004650.png",
+    "图片/Pasted image 20240602004645.png",
+    "图片/Pasted image 20240602004638.png",
+    "图片/Pasted image 20240602004631.png",
+    "图片/Pasted image 20240602004617.png",
+    "图片/Pasted image 20240602004611.png",
+    "UE开发/UE开发.md",
+    "信義四期切洗印刷/五场钢化动画循环.canvas",
+    "Programmer/TowerDefenceDemand.canvas",
+    "信义4.canvas",
+    "信义四期--海南厂区.canvas",
+    "baiban.canvas"
+  ]
+}

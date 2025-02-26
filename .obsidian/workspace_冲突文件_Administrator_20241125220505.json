@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "f8c1ff5b739ac5f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "507637eda5077c40",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb59523f1690cb82",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1f5677418a7c3622",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f257ba09ce8d931",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e21c8ee5045dd6a3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "b516058bd6598534",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "d94846d8d2f92eb0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301.5
+  },
+  "right": {
+    "id": "81d39f3c913d92b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "385033644cfcb3da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0af486211fef4f73",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "UE开发/UE开发.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "UE开发 的反向链接列表"
+            }
+          },
+          {
+            "id": "c856b861ef0a1d24",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "UE开发/塔防案例/塔防案例.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "塔防案例 的出链列表"
+            }
+          },
+          {
+            "id": "5720c2aa13a9456b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2fe61572a0a471bb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Program/C/概念.md"
+              },
+              "icon": "lucide-list",
+              "title": "概念 的大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "9d95bc5e9fbf2ea5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7c470dcaaba6ad0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "publish:发布更改": false,
+      "open-vscode:VSCode": false
+    }
+  },
+  "active": "fb59523f1690cb82",
+  "lastOpenFiles": [
+    "Program/C/a.Concept/概念.md",
+    "Program/C/b.Variable/概念.md",
+    "Program/C/b.Variable/未命名.md.baiduyun.uploading.cfg",
+    "未命名.md.baiduyun.uploading.cfg",
+    "Program/C/b.Variable",
+    "Program/C/a.Concept/Project1/HelloWorld.c.baiduyun.uploading.cfg",
+    "Program/C/a.Concept/Project1/HelloWorld.c~RF14f2bb31.TMP",
+    "Program/C/a.Concept/Project1/HelloWorld.c~RF14f2a2a7.TMP",
+    "Program/C/a.Concept/Project1/HelloWorld.c~RF14f26eb7.TMP",
+    "Program/C/a.Concept/Project1/x64/Debug/Project1.pdb.baiduyun.uploading.cfg",
+    "Program/C/a.Concept/Project1/x64/Debug/Project1.exe.baiduyun.uploading.cfg",
+    "Program/C/a.Concept/Project1/Project1/x64/Debug/vc143.pdb.baiduyun.uploading.cfg",
+    "Program/VSCode配置C++环境.md",
+    "[TIOBE.md",
+    "MarkDown.md",
+    "Program/UE/UE开发.md",
+    "UE必备技能、插件、资产.md",
+    "素材链接.md",
+    "需求文档.md",
+    "ComfyUI_SVD.md",
+    "Program/UE/UEbug.md",
+    "图片/10099.png",
+    "Program/UE/UE功能/Animation.md",
+    "Program/UE/UE功能/WebView.md",
+    "UE插件/PathFollow.md",
+    "Program/UE/UE功能/Actor Component.md",
+    "Program/UE/UE功能/通信.md",
+    "图片/10136.png",
+    "图片/10114.png",
+    "Program/UE/UE功能/AI.md",
+    "美术/UE美术/案例.md",
+    "美术/UE美术/特效.md",
+    "Program/UE/Web.md",
+    "UE开发/UE功能/image/AI/1731945271664.png",
+    "UE开发/image/UE开发/1732031160465.png",
+    "UE开发/123.md",
+    "UE开发/image/123/1732031316669.png",
+    "Program/UE/UE功能/ActorSquence.canvas",
+    "未命名.canvas",
+    "未命名 1.canvas",
+    "Program/代码库/Python.md",
+    "Houdini/Houdini波坍塌函数.md",
+    "Houdini/Houdini风车小镇.md",
+    "Houdini/Houdini基础学习笔记.md",
+    "未命名 2.canvas",
+    "图片/Pasted image 20241024235317.png",
+    "图片/Pasted image 20241025001121.png",
+    "图片/Pasted image 20241025000819.png",
+    "014E0065.png",
+    "信義四期切洗印刷/五场夹层玻璃动画.canvas",
+    "信義四期切洗印刷/五场钢化玻璃动画.canvas",
+    "信義四期切洗印刷/五场钢化动画循环.canvas",
+    "Programmer/TowerDefenceDemand.canvas",
+    "信义4.canvas",
+    "信义四期--海南厂区.canvas"
+  ]
+}

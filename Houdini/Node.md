@@ -1,0 +1,61 @@
+## Geo：几何模块
+
+# 创建节点
+  - Font：文字
+  - Curve：曲线节点
+    - Resample：对曲线进行重新采样点
+    - Skin：将曲线生成面
+    - Fit：将点变成光滑曲线
+    - Sweep：横截面沿曲线生成模型
+    - revolve：扫掠
+  - pointgenerate：根据box最大数量生成点（只是要用这个点来进行循环节点）
+  - point from volume
+# 模型修改
+  - polysplit：切割
+  - dissolve：溶解边或者点
+  - blast：删除面
+  - color：赋予颜色
+  - reverse：翻转法线
+  - fuse：焊接点
+  - dissolve_flat_edges：只保留结构线
+  - polyexpand2d：根据选择的线段向外向内插入面
+  - ends：删除面保留线或者线生成面
+  - bend：弯曲节点
+  - delete：删除
+  - merge：合并模型
+	- 感叹号说明有不同的属性
+# 撒点排列
+  - Scatter：在面上撒点
+  - uvlayout：
+  - Copytopoints：
+    - 将0输入口物体复制到1输入口的点的位置上
+    - 有时候复制不了属性，需要在下面设置
+# 属性设置
+  - attribnoise：扰乱点属性
+  - attribcreate：创建点属性
+  - attribdelete：删除点属性
+    - 为删除所有点属性
+  - attribprompte：将某个类型的属性转换到另一个类型
+    - 模式可以选择最大值等
+    - 可以选择是否保留原来类型的属性
+  - attribrandomize：随机设置的属性
+  - attributerename：对变量名重命名
+# 组设置
+- groupcreate：创建组
+- grouprename：重命名组
+- groupdelete：删除组
+# 位置调整
+  - matchsize：中点对齐
+# 方法功能
+- for each（connectivity）
+	- 循环节点
+	- connectivity会将相连面视为一个对象，否则会将每个面视为一个对象
+	- 本质上是connectivity对相连面定义了一个属性
+	- end会启用这个属性筛选
+- Ray：投射节点
+	- 将点投到地面上
+	- 也可以将碰撞成功的达成一个新组
+# 随机位置
+  - pointjitter：让点沿着法线方向随机移动
+  - mountain：让面产生噪波
+# convertline：转换成曲线

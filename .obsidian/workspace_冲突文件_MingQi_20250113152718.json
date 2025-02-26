@@ -1,0 +1,272 @@
+{
+  "main": {
+    "id": "f8c1ff5b739ac5f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "53c7a311269a73ed",
+        "type": "tabs",
+        "dimension": 53.142857142857146,
+        "children": [
+          {
+            "id": "f45c4bb9bc5e5708",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Program/C/C语言.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "C语言"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c876916e1838a8f6",
+        "type": "tabs",
+        "dimension": 46.85714285714286,
+        "children": [
+          {
+            "id": "7b308fee8fd2e078",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Program/C/教程课件/第2讲：C语言数据类型和变量.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "第2讲：C语言数据类型和变量"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1f5677418a7c3622",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f257ba09ce8d931",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e21c8ee5045dd6a3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "b516058bd6598534",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "d94846d8d2f92eb0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "81d39f3c913d92b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "385033644cfcb3da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0af486211fef4f73",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "UE开发/UE开发.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "UE开发 的反向链接列表"
+            }
+          },
+          {
+            "id": "c856b861ef0a1d24",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "UE开发/塔防案例/塔防案例.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "塔防案例 的出链列表"
+            }
+          },
+          {
+            "id": "5720c2aa13a9456b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2fe61572a0a471bb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Program/C/C语言.md"
+              },
+              "icon": "lucide-list",
+              "title": "C语言 的大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "9d95bc5e9fbf2ea5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7c470dcaaba6ad0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Houdini/Houdini基础学习笔记.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Houdini基础学习笔记"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "publish:发布更改": false,
+      "open-vscode:VSCode": false
+    }
+  },
+  "active": "f45c4bb9bc5e5708",
+  "lastOpenFiles": [
+    "Program/C/Code/variable/x64/Debug/variable.pdb.baiduyun.uploading.cfg",
+    "Program/C/Code/variable/x64/Debug/variable.exe.baiduyun.uploading.cfg",
+    "Program/C/Code/variable/variable/x64/Debug/vc143.pdb.baiduyun.uploading.cfg",
+    "Program/C/Code/variable/variable/x64/Debug/vc143.idb.baiduyun.uploading.cfg",
+    "Program/C/Code/variable/variable/x64/Debug/variable.tlog/variable.lastbuildstate.baiduyun.uploading.cfg",
+    "Program/C/Code/variable/variable/x64/Debug/variable.tlog/link.write.1.tlog.baiduyun.uploading.cfg",
+    "Program/C/Code/variable/variable/x64/Debug/variable.tlog/link.secondary.1.tlog.baiduyun.uploading.cfg",
+    "Program/C/Code/variable/variable/x64/Debug/variable.tlog/link.read.1.tlog.baiduyun.uploading.cfg",
+    "Program/C/Code/variable/variable/x64/Debug/variable.tlog/link.command.1.tlog.baiduyun.uploading.cfg",
+    "Program/C/Code/variable/variable/x64/Debug/variable.tlog/CL.write.1.tlog.baiduyun.uploading.cfg",
+    "Program/C/Code/variable/variable/x64/Debug/variable.tlog/CL.read.1.tlog.baiduyun.uploading.cfg",
+    "Program/C/C语言.md",
+    "Program/C/基础概念.md",
+    "图片/Pasted image 20250106141818.png",
+    "e0dcd17e171e1bd939e80ce653e06673.png",
+    "33B2D8E9.png",
+    "[C.md",
+    "Houdini/Houdini基础学习笔记.md",
+    "Program/C/分支语句.md",
+    "Program/C/数组.md",
+    "Program/C/头文件与函数.md",
+    "Program/C/变量.md",
+    "Program/UE/UE功能模块/UMG.md",
+    "2024年终总结_王雨诺.md",
+    "Houdini/Houdini风车小镇.md",
+    "Program/UE/U++.md",
+    "Program/UE/Blueprint.md",
+    "Houdini/Houdini波坍塌函数.md",
+    "UE必备技能、插件、资产.md",
+    "软件操作/Blender.md",
+    "美术/地形.md",
+    "Program/C++/C++.md",
+    "Program/UE/塔防案例/塔防案例.md",
+    "Program/UE/塔防案例/塔防游戏要求.md",
+    "软件操作/SVN.md",
+    "Program/Python/Python.md",
+    "Program/UE/UE功能模块/像素流.md",
+    "Program/UE/UE功能模块/Actor Component.md",
+    "Program/UE/UE功能模块/ActorSquence.canvas",
+    "Program/UE/UE功能模块/通信.md",
+    "图片/10099.png",
+    "图片/10136.png",
+    "图片/10114.png",
+    "UE开发/UE功能/image/AI/1731945271664.png",
+    "UE开发/image/UE开发/1732031160465.png",
+    "UE开发/image/123/1732031316669.png",
+    "未命名.canvas",
+    "未命名 1.canvas",
+    "未命名 2.canvas",
+    "图片/Pasted image 20241024235317.png",
+    "信義四期切洗印刷/五场夹层玻璃动画.canvas",
+    "信義四期切洗印刷/五场钢化玻璃动画.canvas",
+    "信義四期切洗印刷/五场钢化动画循环.canvas",
+    "Programmer/TowerDefenceDemand.canvas",
+    "信义4.canvas",
+    "信义四期--海南厂区.canvas"
+  ]
+}

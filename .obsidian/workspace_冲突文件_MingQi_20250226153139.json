@@ -34,30 +34,6 @@
             }
           },
           {
-            "id": "af58d8fc425a702e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Program/UE/UE功能模块/LocalizationDashboard.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "LocalizationDashboard"
-            }
-          },
-          {
             "id": "06f5c3654918bd26",
             "type": "leaf",
             "pinned": true,
@@ -89,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Houdini/功能实现.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -104,11 +80,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "功能实现"
+              "title": "README"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -182,7 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 271.5
   },
   "right": {
     "id": "81d39f3c913d92b7",
@@ -301,12 +277,10 @@
   },
   "active": "b51e145e4c3e3168",
   "lastOpenFiles": [
-    "Houdini/功能实现.md.baiduyun.uploading.cfg",
-    "MarkDown.md",
-    "Houdini/功能实现.md",
     "Program/UE/UE功能模块/LocalizationDashboard.md",
-    "Program/UE/UE功能模块/LocalizationDashboard.md.baiduyun.uploading.cfg",
     "README.md",
+    "Program/UE/UE功能模块/LocalizationDashboard.md.baiduyun.uploading.cfg",
+    "MarkDown.md.baiduyun.uploading.cfg",
     "regex-rulesets/index.txt.baiduyun.uploading.cfg",
     "README.md.baiduyun.uploading.cfg",
     "/regex-rulesets/index.txt",
@@ -320,9 +294,11 @@
     "图片/Pasted image 20250226145612.png",
     "Program/C/教程课件/第21讲：动态内存管理.pdf",
     "图片/Pasted image 20250226145254.png",
+    "MarkDown.md",
     "ComfyUI_SVD.md",
     "UE插件、资产收藏.md",
     "Houdini/工作流.md",
+    "Houdini/功能实现.md",
     "Houdini/Vex.md",
     "Program/UE/UE性能优化.md",
     "Program/C/Code/DynaMem.c.baiduyun.uploading.cfg",

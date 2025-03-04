@@ -7,7 +7,7 @@
 //int main()
 //{
 //	int testArray[20] = {1};//第一个元素初始化为1，其余默认初始化为0
-//	printf("%d\n",sizeof(testArray));//sizeof计算的是字节的长度，而不是数组的长度
+//	printf("%d\n",sizeof(testArray));//sizeof计算的结果单位是字节，而不是数组的长度
 //	int arrLength = sizeof(testArray) / sizeof(testArray[0]);
 //	printf("%d\n", arrLength);
 //	for (int i = 0; i<arrLength; i++)
@@ -78,13 +78,37 @@
 //}
 
 //多个字符从两端移动，向中间汇聚
+void SetChar(char* sour,char* target,int sz)
+{
+	for (int i = 0; i < sz; i++)
+	{
+		if (i>=sz-i-1)
+		{
+			break;
+		}
+		*(target + i) = *(sour + i);
+		*(target + sz-i-2) = *(sour + sz-i-2);
+		printf("%s\n",target);
+		Sleep(2000);
+	}
+
+}
+
+
 
 
 //int main()
 //{
-//	char arr1[] = "***********";//逐渐变成helloworld
-//	char arr2[] = "helloworldq";
+//	char arr1[] = "**********";//逐渐变成helloworld
+//	char arr2[] = "helloworld";
 //	int arrSize = sizeof(arr1) / sizeof(arr1[0]);
+
+
+	//SetChar(arr2,arr1,arrSize);
+
+
+
+
 //	int left = 0;
 //	int right = arrSize-2;
 //	while(left<=right)
@@ -106,6 +130,40 @@
 
 //二分法寻数
 
+void GetNum(int* p,int sz,int x)
+{
+	//if (x > p[sz - 1] || x < p[0])
+	//{
+	//	printf("请输入在范围内的值");
+	//	return;
+	//}
+	int right = sz - 1;
+	int left = 0;
+	int mid = (right + left) / 2;
+	while (left<=right)
+	{
+		if (p[mid] == x)
+		{
+			printf("找到了，在数组中的索引为%d\n",mid);
+			return;
+		}
+		else if (p[mid] < x)
+		{
+			left = mid + 1;
+			
+		}
+		else
+		{
+			right = mid - 1;
+			
+		}
+
+		mid = left + (right - left) / 2;
+	}
+	printf("未找到\n");
+}
+
+
 //int main()
 //{
 //	int arr1[10] = { 0 };
@@ -118,6 +176,13 @@
 //	int num = 0;
 //	scanf("%d",&num);
 //
+//	GetNum(arr1,arrSize,num);
+
+
+
+
+
+
 //	int left = 0;
 //	int right = sizeof(arr1) / sizeof(arr1[0])-2;
 //	int mid = 0;

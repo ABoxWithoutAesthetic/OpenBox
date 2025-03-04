@@ -34,74 +34,19 @@
             }
           },
           {
-            "id": "af58d8fc425a702e",
+            "id": "02c1ed4c3d254ad7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Program/UE/UE功能模块/LocalizationDashboard.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "Program/C/教程课件/第10讲：操作符详解.pdf"
               },
-              "icon": "lucide-file",
-              "title": "LocalizationDashboard"
-            }
-          },
-          {
-            "id": "06f5c3654918bd26",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Program/UE/UE功能模块/LocalizationDashboard.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "LocalizationDashboard"
-            }
-          },
-          {
-            "id": "b51e145e4c3e3168",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Program/UE/UE功能模块/ActorSquence.canvas",
-                "viewState": {
-                  "x": 188.91575220583758,
-                  "y": 74.2040646219387,
-                  "zoom": -0.9999999999999998
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "ActorSquence"
+              "icon": "lucide-file-text",
+              "title": "第10讲：操作符详解"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -292,8 +237,13 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "b51e145e4c3e3168",
+  "active": "02c1ed4c3d254ad7",
   "lastOpenFiles": [
+    "Program/C/C语言.md",
+    "Program/C/教程课件/第10讲：操作符详解.pdf",
+    "Program/UE/UE功能模块/LocalizationDashboard.md",
+    "Program/UE/UE功能模块/ActorSquence.canvas",
+    "Program/C/C语言.md.baiduyun.uploading.cfg",
     "Program/UE/UE功能模块/Actor Component.md",
     "Program/UE/塔防案例/塔防游戏要求.md",
     "Program/UE/UE功能模块/像素流.md",
@@ -304,7 +254,6 @@
     "Program/UE/UE功能模块/UMG.md",
     "Program/UE/UE功能模块/Animation.md",
     "Program/UE/UE功能模块/AI.md",
-    "Program/UE/UE功能模块/LocalizationDashboard.md",
     "MarkDown.md",
     "Houdini/功能实现.md",
     "Houdini/功能实现.md.baiduyun.uploading.cfg",
@@ -315,13 +264,10 @@
     "/regex-rulesets/index.txt",
     "regex-rulesets/index.txt",
     "/regex-rulesets",
-    "regex-rulesets",
     "图片/Pasted image 20250226150735.png",
     "图片/Pasted image 20250226150611.png",
     "Pasted image 20250226150300.png",
-    "Program/C/C语言.md",
     "图片/Pasted image 20250226145612.png",
-    "Program/C/教程课件/第21讲：动态内存管理.pdf",
     "图片/Pasted image 20250226145254.png",
     "ComfyUI_SVD.md",
     "UE插件、资产收藏.md",
@@ -339,9 +285,7 @@
     "Program/UE/Blueprint.md",
     "Houdini/未命名.md",
     "Houdini/Pyhton.md",
-    "未命名.md",
     "未命名.canvas",
-    "Program/UE/UE功能模块/ActorSquence.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas",
     "信義四期切洗印刷/五场夹层玻璃动画.canvas",

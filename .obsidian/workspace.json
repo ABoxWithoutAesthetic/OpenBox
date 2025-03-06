@@ -34,19 +34,67 @@
             }
           },
           {
-            "id": "02c1ed4c3d254ad7",
+            "id": "7fa4c5a5c735778e",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Program/C/教程课件/第10讲：操作符详解.pdf"
+                "file": "Program/C/教程课件/第11讲：深入理解指针(1).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "第10讲：操作符详解"
+              "title": "第11讲：深入理解指针(1)"
+            }
+          },
+          {
+            "id": "bc8bafab91a2b6e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UE插件、资产收藏.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "UE插件、资产收藏"
+            }
+          },
+          {
+            "id": "801a916ea0adfaa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Program/C/C语言.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "C语言"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -120,7 +168,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 353.5
+    "width": 519.5,
+    "collapsed": true
   },
   "right": {
     "id": "81d39f3c913d92b7",
@@ -237,13 +286,23 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "02c1ed4c3d254ad7",
+  "active": "801a916ea0adfaa9",
   "lastOpenFiles": [
+    "Program/C/C语言.md.baiduyun.uploading.cfg",
+    "Program/UE/UE功能模块/UMG.md",
+    "ComfyUI_SVD.md",
     "Program/C/C语言.md",
+    "Program/C/教程课件/第11讲：深入理解指针(1).pdf",
+    "Houdini/Node.md",
+    "Houdini/Pyhton.md",
+    "Houdini/功能实现.md",
+    "Houdini/Vex.md",
+    "Houdini/Vop.md",
+    "MarkDown.md",
+    "UE插件、资产收藏.md",
     "Program/C/教程课件/第10讲：操作符详解.pdf",
     "Program/UE/UE功能模块/LocalizationDashboard.md",
     "Program/UE/UE功能模块/ActorSquence.canvas",
-    "Program/C/C语言.md.baiduyun.uploading.cfg",
     "Program/UE/UE功能模块/Actor Component.md",
     "Program/UE/塔防案例/塔防游戏要求.md",
     "Program/UE/UE功能模块/像素流.md",
@@ -251,11 +310,8 @@
     "Program/UE/UE功能模块/WebView.md",
     "Program/UE/UE功能模块/Web.md",
     "Program/UE/UE功能模块/通信.md",
-    "Program/UE/UE功能模块/UMG.md",
     "Program/UE/UE功能模块/Animation.md",
     "Program/UE/UE功能模块/AI.md",
-    "MarkDown.md",
-    "Houdini/功能实现.md",
     "Houdini/功能实现.md.baiduyun.uploading.cfg",
     "Program/UE/UE功能模块/LocalizationDashboard.md.baiduyun.uploading.cfg",
     "README.md",
@@ -263,28 +319,21 @@
     "README.md.baiduyun.uploading.cfg",
     "/regex-rulesets/index.txt",
     "regex-rulesets/index.txt",
-    "/regex-rulesets",
     "图片/Pasted image 20250226150735.png",
     "图片/Pasted image 20250226150611.png",
     "Pasted image 20250226150300.png",
     "图片/Pasted image 20250226145612.png",
     "图片/Pasted image 20250226145254.png",
-    "ComfyUI_SVD.md",
-    "UE插件、资产收藏.md",
     "Houdini/工作流.md",
-    "Houdini/Vex.md",
     "Program/UE/UE性能优化.md",
     "图片/1739329040093.png",
     "图片/Pasted image 20250218010138.png",
     "图片/Pasted image 20250223031221.png",
     "图片/Pasted image 20250223031540.png",
     "图片/Pasted image 20241025001121.png",
-    "Houdini/Vop.md",
     "未命名/123.md",
-    "Houdini/Node.md",
     "Program/UE/Blueprint.md",
     "Houdini/未命名.md",
-    "Houdini/Pyhton.md",
     "未命名.canvas",
     "未命名 1.canvas",
     "未命名 2.canvas",

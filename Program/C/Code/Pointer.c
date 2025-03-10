@@ -1,7 +1,6 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 
-
 //查看变量的地址
 
 //int main()
@@ -205,7 +204,6 @@
 //	return 0;
 //}
 
-
 //传值调用和传址调用
 //void swap1(int a,int b)
 //{
@@ -326,7 +324,7 @@
 //				*(arr + j + 1) = temp;
 //				input=0;
 //			}
-//			
+//
 //		}
 //		if (input == 1)
 //		{
@@ -421,7 +419,8 @@
 
 //int main()
 //{
-//	char a = "a";
+//	char a = "b";
+//	char b = 'a';
 //	char* pa = &a;
 //	char* ptr = "hello world";
 //	printf("%c %c", a, *ptr);
@@ -523,8 +522,6 @@
 //	return 0;
 //}
 
-
-
 int Add(int x, int y)
 {
 	return x + y;
@@ -541,8 +538,6 @@ int Div(int x, int y)
 {
 	return x / y;
 }
-
-
 
 //函数指针
 
@@ -570,7 +565,6 @@ typedef int* p_a;
 //数组指针和函数指针
 typedef int (*p_arr)[10];
 typedef int (*TestFunction)(int, int);
-
 
 typedef void (*pp_fun)(int);
 //int main()
@@ -620,16 +614,15 @@ void Menu()
 	printf("4.使用除法\n");
 	printf("0.结束使用\n");
 }
-void cal(int (*fun_p)(int,int))
+void cal(int (*fun_p)(int, int))
 {
 	int x = 0;
 	int y = 0;
 	int ret = 0;
 	printf("请输入两个操作数：\n");
-	scanf("%d %d",&x,&y);
+	scanf("%d %d", &x, &y);
 	ret = fun_p(x, y);
 	printf("运算结果为：%d\n", ret);
-
 }
 //int main()
 //{
@@ -670,9 +663,9 @@ void cal(int (*fun_p)(int,int))
 //	int (*fun_p_arr[5])(int, int) = {0,Add,Sub,Mul,Div};
 //	Menu();
 //	int input = 0;
-//	do 
+//	do
 //	{
-//		
+//
 //		printf("请选择计算模式：\n");
 //		scanf("%d", &input);
 //		if (input>0&&input<5)
@@ -697,38 +690,33 @@ void cal(int (*fun_p)(int,int))
 //	return 0;
 //}
 
-
-
 //qsort模拟实现（冒泡排序的方式）
 
-void swap( void* p1, void* p2,int width)//这个为交换函数，会修改值所以不可以用const void*
+void swap(void* p1, void* p2, int width)//这个为交换函数，会修改值所以不可以用const void*
 {
 	for (int i = 0; i < width; i++)
 	{
 		char temp = *((char*)p1 + i);
 		*((char*)p1 + i) = *((char*)p2 + i);
-		*((char*)p2 + i )= temp;
+		*((char*)p2 + i) = temp;
 	}
-	
-	
 }
-void bubble_sort(void* base,int sz,int width,int(*point)(const void* p1, const void* p2))
+void bubble_sort(void* base, int sz, int width, int(*point)(const void* p1, const void* p2))
 {
 	for (int i = 0; i < sz - 1; i++)
 	{
 		for (int j = 0; j < sz - 1 - i; j++)
 		{
-			if ((point(((char*)base+j*width),((char*)base+(j+1)*width))) > 0)
+			if ((point(((char*)base + j * width), ((char*)base + (j + 1) * width))) > 0)
 			{
-				swap(((char*)base + j * width), ((char*)base + (j + 1) * width),width);
+				swap(((char*)base + j * width), ((char*)base + (j + 1) * width), width);
 			}
 		}
 	}
-
 }
-int point_int(const void* p1,const void* p2)//这个为比较函数，只比较值不会修改值所以可以用const void*
+int point_int(const void* p1, const void* p2)//这个为比较函数，只比较值不会修改值所以可以用const void*
 {
-	return (*((int*)p1)-*((int*)p2));
+	return (*((int*)p1) - *((int*)p2));
 }
 
 struct stu {
@@ -737,15 +725,13 @@ struct stu {
 };
 
 #include <string.h>
-int point_struct_stu_name(const void* p1,const void* p2)
+int point_struct_stu_name(const void* p1, const void* p2)
 {
-
-	 return strcmp(((struct stu*)p1)->name, ((struct stu*)p2)->name);
+	return strcmp(((struct stu*)p1)->name, ((struct stu*)p2)->name);
 }
 int point_struct_stu_age(const void* p1, const void* p2)
 {
-
-	return (*((struct stu*)p1)).age-(*((struct stu*)p2)).age;
+	return (*((struct stu*)p1)).age - (*((struct stu*)p2)).age;
 }
 //int main()
 //{
@@ -769,62 +755,41 @@ int point_struct_stu_age(const void* p1, const void* p2)
 //	return 0;
 //}
 
-
 //一维数组
- 
 
 //int main()
 //{
 //	int a[] = { 1,2,3,4 };
-//	printf("%zd\n", sizeof(a));
-//	//a是单独的数组名，与sizeof结合，测量的是整个数组的字节长度，16
-//	printf("%zd\n", sizeof(a + 0)); 
-//	//a与sizeof不是单独结合，a为首元素地址，类型为int*[4]，指向首元素，结果为4/8
-//	printf("%zd\n", sizeof(*a));
-//	//首元素地址解引用为首元素，4
-//	printf("%zd\n", sizeof(a + 1));
-//	//首元素地址+1，第二个元素地址，4/8
-//	printf("%zd\n", sizeof(a[1]));
-//	//第二元素，4
-//	printf("%zd\n", sizeof(&a));
-//	//数组指针，类型为int*[4]，指向首元素，4/8
-//	printf("%zd\n", sizeof(*&a));
-//	//整个数组，16
-//	printf("%zd\n", sizeof(&a + 1));
-//	//数组指针，类型为int*[4]，指向末端之后一个，4/8
-//	printf("%zd\n", sizeof(&a[0]));
-//	//首元素地址，4/8
-//	printf("%zd\n", sizeof(&a[0] + 1));
-//	//首元素地址，int*，指向第二个元素，4/8
+//	printf("%zd\n", sizeof(a));					//a是单独的数组名，与sizeof结合，测量的是整个数组的字节长度，16
+//	printf("%zd\n", sizeof(a + 0));				//a与sizeof不是单独结合，a为首元素地址，类型为int*[4]，指向首元素，结果为4/8
+//	printf("%zd\n", sizeof(*a));				//首元素地址解引用为首元素，4
+//	printf("%zd\n", sizeof(a + 1));				//首元素地址+1，第二个元素地址，4/8
+//	printf("%zd\n", sizeof(a[1]));				//第二元素，4
+//	printf("%zd\n", sizeof(&a));				//数组指针，类型为int*[4]，指向首元素，4/8
+//	printf("%zd\n", sizeof(*&a));				//整个数组，16
+//	printf("%zd\n", sizeof(&a + 1));			//数组指针，类型为int*[4]，指向末端之后一个，4/8
+//	printf("%zd\n", sizeof(&a[0]));				//首元素地址，4/8
+//	printf("%zd\n", sizeof(&a[0] + 1));			//首元素地址，int*，指向第二个元素，4/8
+//
 //	printf("\n\n\n");
 //	return 0;
 //}
 
-
 //字符数组
 
+int main()
+{
+	char arr[] = { 'a','b','c','d','e','f' };
+	printf("%zd\n", sizeof(arr));												//sizeof+单独的数组名，即整个数组，6
+	printf("%zd\n", sizeof(arr + 0));											//地址，指向首元素，类型为char*，4/8
+	printf("%zd\n", sizeof(*arr));												//首元素地址解引用即字符a，首字符长度，1
+	printf("%zd\n", sizeof(arr[1]));											//第二字符长度，1
+	printf("%zd\n", sizeof(&arr));												//数组指针，类型为char*[6]，指向数组首元素，结果为4/8
+	printf("%zd\n", sizeof(&arr + 1));											//同上，指向数组末端，结果为4/8
+	printf("%zd\n", sizeof(&arr[0] + 1));										//首元素地址，指向第二个元素，结果为4/8
 
-//int main()
-//{
-//	char arr[] = { 'a','b','c','d','e','f' }; 
-//	printf("%zd\n", sizeof(arr));
-//	//sizeof+单独的数组名，即整个数组，6
-//	printf("%zd\n", sizeof(arr + 0));
-//	//地址，指向首元素，类型为char*，4/8
-//	printf("%zd\n", sizeof(*arr));
-//	//首元素地址解引用即字符a，首字符长度，1
-//	printf("%zd\n", sizeof(arr[1]));
-//	//第二字符长度，1
-//	printf("%zd\n", sizeof(&arr));
-//	//数组指针，类型为char*[6]，指向数组首元素，结果为4/8
-//	printf("%zd\n", sizeof(&arr + 1));
-//	//同上，指向数组末端，结果为4/8
-//	printf("%zd\n", sizeof(&arr[0] + 1));
-//	//首元素地址，指向第二个元素，结果为4/8
-//
-//	return 0;
-//}
-
+	return 0;
+}
 
 //int main()
 //{
@@ -865,7 +830,6 @@ int point_struct_stu_age(const void* p1, const void* p2)
 //	//char*，第二个元素，4/8
 //	return 0;
 //}
-
 
 //int main()
 //{
@@ -908,7 +872,6 @@ int point_struct_stu_age(const void* p1, const void* p2)
 //	return 0;
 //}
 
-
 //int main()
 //{
 //	char* p = "abcdef";
@@ -929,7 +892,6 @@ int point_struct_stu_age(const void* p1, const void* p2)
 //	//char*，第二个字符，5
 //	return 0;
 //}
-
 
 //二维数组
 
@@ -963,10 +925,7 @@ int point_struct_stu_age(const void* p1, const void* p2)
 //	return 0;
 //}
 
-
 //指针运算笔试题解析
-
-
 
 //int main()
 //{
@@ -977,7 +936,6 @@ int point_struct_stu_age(const void* p1, const void* p2)
 //	//2，5
 //	return 0;
 //}
-
 
 //在X86环境下
 
@@ -1008,7 +966,6 @@ struct Test
 //	return 0;
 //}
 
-
 //int main()
 //{
 //	int a[3][2] = { (0, 1), (2, 3), (4, 5) };
@@ -1020,7 +977,6 @@ struct Test
 //	//*(p+0)，1
 //	return 0;
 //}
-
 
  //假设环境是x86环境，程序输出的结果是啥？
 
@@ -1043,7 +999,6 @@ struct Test
 //	return 0;
 //}
 
-
 //int main()
 //{
 //	int aa[2][5] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
@@ -1055,7 +1010,6 @@ struct Test
 //	//10，5
 //	return 0;
 //}
-
 
 //int main()
 //{
@@ -1070,19 +1024,18 @@ struct Test
 //	return 0;
 //}
 
-
-int main()
-{
-	char* c[] = { "ENTER","NEW","POINT","FIRST" };
-	//四个字符串的首字符的地址数组，即char*类型的字符指针数组
-	char** cp[] = { c + 3,c + 2,c + 1,c };
-	//char**[]类型的指针数组
-	char*** cpp = cp;
-	//char**类型的数组首元素指针
-	printf("%s\n", **++cpp);//POINT
-	printf("%s\n", *-- * ++cpp + 3);//ER
-	printf("%s\n", *cpp[-2] + 3);//ST
-	printf("%s\n", cpp[-1][-1] + 1);//EW
-	char arr1[50] = "我是你爹";
-	return 0;
-}
+//int main()
+//{
+//	char* c[] = { "ENTER","NEW","POINT","FIRST" };
+//	//四个字符串的首字符的地址数组，即char*类型的字符指针数组
+//	char** cp[] = { c + 3,c + 2,c + 1,c };
+//	//char**[]类型的指针数组
+//	char*** cpp = cp;
+//	//char**类型的数组首元素指针
+//	printf("%s\n", **++cpp);//POINT
+//	printf("%s\n", *-- * ++cpp + 3);//ER
+//	printf("%s\n", *cpp[-2] + 3);//ST
+//	printf("%s\n", cpp[-1][-1] + 1);//EW
+//	char arr1[50] = "我是你爹";
+//	return 0;
+//}

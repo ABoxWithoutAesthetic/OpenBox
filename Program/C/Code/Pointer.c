@@ -777,119 +777,82 @@ int point_struct_stu_age(const void* p1, const void* p2)
 
 //字符数组
 
-int main()
-{
-	char arr[] = { 'a','b','c','d','e','f' };
-	printf("%zd\n", sizeof(arr));												//sizeof+单独的数组名，即整个数组，6
-	printf("%zd\n", sizeof(arr + 0));											//地址，指向首元素，类型为char*，4/8
-	printf("%zd\n", sizeof(*arr));												//首元素地址解引用即字符a，首字符长度，1
-	printf("%zd\n", sizeof(arr[1]));											//第二字符长度，1
-	printf("%zd\n", sizeof(&arr));												//数组指针，类型为char*[6]，指向数组首元素，结果为4/8
-	printf("%zd\n", sizeof(&arr + 1));											//同上，指向数组末端，结果为4/8
-	printf("%zd\n", sizeof(&arr[0] + 1));										//首元素地址，指向第二个元素，结果为4/8
-
-	return 0;
-}
+//int main()
+//{
+//	char arr[] = { 'a','b','c','d','e','f' };
+//	printf("%zd\n", sizeof(arr));												//sizeof+单独的数组名，即整个数组，6
+//	printf("%zd\n", sizeof(arr + 0));											//地址，指向首元素，类型为char*，4/8
+//	printf("%zd\n", sizeof(*arr));												//首元素地址解引用即字符a，首字符长度，1
+//	printf("%zd\n", sizeof(arr[1]));											//第二字符长度，1
+//	printf("%zd\n", sizeof(&arr));												//数组指针，类型为char*[6]，指向数组首元素，结果为4/8
+//	printf("%zd\n", sizeof(&arr + 1));											//同上，指向数组末端，结果为4/8
+//	printf("%zd\n", sizeof(&arr[0] + 1));										//首元素地址，指向第二个元素，结果为4/8
+//
+//	return 0;
+//}
 
 //int main()
 //{
 //	char arr[] = { 'a','b','c','d','e','f' };
-//	printf("%d\n", strlen(arr));
-//	//数组名且非特殊情况，即首元素地址，但是数组没有/0，结果为随机值
-//	printf("%d\n", strlen(arr + 0));
-//	//同上
-//	//printf("%d\n", strlen(*arr));
-//	//对首元素地址解引用，结果是字符a，即97，非法访问，error
-//	//printf("%d\n", strlen(arr[1]));
-//	//b，同上
-//	printf("%d\n", strlen(&arr));
-//	//数组指针，位置指向首元素地址，类型为char*[6],结果随机值
-//	printf("%d\n", strlen(&arr + 1));
-//	//同上，位置指向末元素下一个位置，结果为随机值
-//	printf("%d\n", strlen(&arr[0] + 1));
-//	//位置指向第二个元素，类型为char* 结果为随机值
+//	printf("%d\n", strlen(arr));												//数组名且非特殊情况，即首元素地址，但是数组没有/0，结果为随机值
+//	printf("%d\n", strlen(arr + 0));											//同上
+//	printf("%d\n", strlen(*arr));												//对首元素地址解引用，结果是字符a，即97，非法访问，error
+//	printf("%d\n", strlen(arr[1]));												//b，同上
+//	printf("%d\n", strlen(&arr));												//数组指针，位置指向首元素地址，类型为char*[6],结果随机值
+//	printf("%d\n", strlen(&arr + 1));											//同上，位置指向末元素下一个位置，结果为随机值
+//	printf("%d\n", strlen(&arr[0] + 1));										//位置指向第二个元素，类型为char* 结果为随机值
 //	return 0;
 //}
 
 //int main()
 //{
 //	char arr[] = "abcdef";
-//	printf("%d\n", sizeof(arr));
-//	//单独数组名，7
-//	printf("%d\n", sizeof(arr + 0));
-//	//类型char*，指向首元素，4/8
-//	printf("%d\n", sizeof(*arr));
-//	//字符a，1
-//	printf("%d\n", sizeof(arr[1]));
-//	//字符b，1
-//	printf("%d\n", sizeof(&arr));
-//	//数组指针，char*[7]，指向首元素，4/8
-//	printf("%d\n", sizeof(&arr + 1));
-//	//数组指针，char*[7]，指向数组末端，4/8
-//	printf("%d\n", sizeof(&arr[0] + 1));
-//	//char*，第二个元素，4/8
+//	printf("%d\n", sizeof(arr));													//单独数组名，7
+//	printf("%d\n", sizeof(arr + 0));												//类型char*，指向首元素，4/8
+//	printf("%d\n", sizeof(*arr));													//字符a，1
+//	printf("%d\n", sizeof(arr[1]));													//字符b，1
+//	printf("%d\n", sizeof(&arr));													//数组指针，char*[7]，指向首元素，4/8
+//	printf("%d\n", sizeof(&arr + 1));												//数组指针，char*[7]，指向数组末端，4/8
+//	printf("%d\n", sizeof(&arr[0] + 1));											//char*，第二个元素，4/8
 //	return 0;
 //}
 
 //int main()
 //{
 //	char arr[] = "abcdef";
-//	printf("%d\n", strlen(arr));
-//	//首元素地址，6
-//	printf("%d\n", strlen(arr + 0));
-//	//首元素地址，6
-//	//printf("%d\n", strlen(*arr));
-//	//首元素字符，error
-//	//printf("%d\n", strlen(arr[1]));
-//	//第二个元素字符，error
-//	printf("%d\n", strlen(&arr));
-//	//数组指针，char*[7]，指向首元素，6
-//	printf("%d\n", strlen(&arr + 1));
-//	//数组指针，char*[7]，指向末端，随机值
-//	printf("%d\n", strlen(&arr[0] + 1));
-//	//首元素指针+1，char*，5
+//	printf("%d\n", strlen(arr));											//首元素地址，6
+//	printf("%d\n", strlen(arr + 0));										//首元素地址，6
+//	printf("%d\n", strlen(*arr));											//首元素字符，error
+//	printf("%d\n", strlen(arr[1]));											//第二个元素字符，error
+//	printf("%d\n", strlen(&arr));											//数组指针，char*[7]，指向首元素，6
+//	printf("%d\n", strlen(&arr + 1));										//数组指针，char*[7]，指向末端，随机值
+//	printf("%d\n", strlen(&arr[0] + 1));									//首元素指针+1，char*，5
 //	return 0;
 //}
 
 //int main()
 //{
-//	char* p = "abcdef";
-//	//p为首字符a的地址
-//	printf("%d\n", sizeof(p));
-//	//char*，指向a，4/8
-//	printf("%d\n", sizeof(p + 1));
-//	//char*，指向b，4/8
-//	printf("%d\n", sizeof(*p));
-//	//a，1
-//	printf("%d\n", sizeof(p[0]));
-//	//*(p+0)，a，1
-//	printf("%d\n", sizeof(&p));
-//	//二级指针，char**，4/8
-//	printf("%d\n", sizeof(&p + 1));
-//	//二级指针，char**，+1跳过一个char*，char*为4/8，4/8
-//	printf("%d\n", sizeof(&p[0] + 1));
-//	//char*，指向b，4/8
+//	char* p = "abcdef";										//p为首字符a的地址
+//	printf("%d\n", sizeof(p));								//char*，指向a，4/8
+//	printf("%d\n", sizeof(p + 1));							//char*，指向b，4/8
+//	printf("%d\n", sizeof(*p));								//a，1
+//	printf("%d\n", sizeof(p[0]));							//*(p+0)，a，1
+//	printf("%d\n", sizeof(&p));								//二级指针，char**，4/8
+//	printf("%d\n", sizeof(&p + 1));							//二级指针，char**，+1跳过一个char*，即跳过4/8个字节，char*为4/8，4/8
+//	printf("%d\n", sizeof(&p[0] + 1));						//char*，指向b，4/8
 //	return 0;
 //}
 
 //int main()
 //{
-//	char* p = "abcdef";
-//	//p为首字符a的地址
-//	printf("%d\n", strlen(p));
-//	//char*，首字符a地址，6
-//	printf("%d\n", strlen(p + 1));
-//	//char*，第二个元素地址，5
-//	//printf("%d\n", strlen(*p));
-//	//首元素地址解引用a，error
-//	//printf("%d\n", strlen(p[0]));
-//	//error
-//	printf("%d\n", strlen(&p));
-//	//二级指针，char**，随机值
-//	printf("%d\n", strlen(&p +1));
-//	//二级指针，char**，随机值
-//	printf("%d\n", strlen(&p[0] + 1));
-//	//char*，第二个字符，5
+//	char* p = "abcdef";														//p为首字符a的地址
+//	printf("%d\n", strlen(p));												//char*，首字符a地址，6
+//	printf("%d\n", strlen(p + 1));											//char*，第二个元素地址，5
+//	printf("%d\n", strlen(*p));												//首元素地址解引用a，error
+//	printf("%d\n", strlen(p[0]));											//error
+//	printf("%d\n", strlen(&p));												//二级指针，char**，随机值
+//	printf("%d\n", strlen(&p +1));											//二级指针，char**，随机值
+//	printf("%d\n", strlen(&p[0] + 1));										//char*，第二个字符，5
 //	return 0;
 //}
 
@@ -898,30 +861,17 @@ int main()
 //int main()
 //{
 //	int a[3][4] = { 0 };
-//	printf("%d\n", sizeof(a));
-//	//二维数组名也是数组名，48
-//	printf("%d\n", sizeof(a[0][0]));
-//	//二维数组一维数组的首元素，4
-//	printf("%d\n", sizeof(a[0]));
-//	//二维数组的一维数组名，也是单独数组名，16
-//	printf("%d\n", sizeof(a[0] + 1));
-//	//int*，二维数组的第一个一维数组的首元素的地址+1，4/8
-//	printf("%d\n", sizeof(*(a[0] + 1)));
-//	//第一个一位数组的的第二个元素的地址解引用，4
-//	//*(*(a+0)+1)   *(*a+1)   *a为第一个一维数组，单独为就为数组名，否则就为第一个首元素的地址
-//	printf("%d\n", sizeof(a + 1));
-//	//int*[4]，指向第二个一维数组，跳过了16个字节，4/8
-//	printf("%d\n", sizeof(*(a + 1)));
-//	//对第二个一维数组解引用为一维数组，16
-//	printf("%d\n", sizeof(&a[0] + 1));
-//	//int*[4]，指向第二个一维数组，4/8
-//	printf("%d\n", sizeof(*(&a[0] + 1)));
-//	//第二个一维数组，16
-//	//*(&(*(a+0))+1) → *(&(*a)+1) → *(a+1) → a[1]
-//	printf("%d\n", sizeof(*a));
-//	//第一个一维数组的地址解引用为第一个一维数组，16
-//	printf("%d\n", sizeof(a[3]));
-//	//因为sizeof不参与运算，所以不存在越界的情况，只是根据数据类型类判断所占字节大小，16
+//	printf("%d\n", sizeof(a));										//二维数组名也是数组名，48
+//	printf("%d\n", sizeof(a[0][0]));								//二维数组一维数组的首元素，4
+//	printf("%d\n", sizeof(a[0]));									//二维数组的一维数组名，也是单独数组名，16
+//	printf("%d\n", sizeof(a[0] + 1));								//int*，二维数组的第一个一维数组的首元素的地址+1，4/8
+//	printf("%d\n", sizeof(*(a[0] + 1)));	//						//第一个一位数组的的第二个元素的地址解引用，4	//*(*(a+0)+1)   *(*a+1)   *a为第一个一维数组，单独为就为数组名，否则就为第一个首元素的地址
+//	printf("%d\n", sizeof(a + 1));									//int*[4]，指向第二个一维数组，跳过了16个字节，4/8
+//	printf("%d\n", sizeof(*(a + 1)));								//对第二个一维数组解引用为一维数组，16
+//	printf("%d\n", sizeof(&a[0] + 1));								//int*[4]，指向第二个一维数组，4/8
+//	printf("%d\n", sizeof(*(&a[0] + 1)));							//第二个一维数组，16	//*(&(*(a+0))+1) → *(&(*a)+1) → *(a+1) → a[1]
+//	printf("%d\n", sizeof(*a));										//第一个一维数组的地址解引用为第一个一维数组，16
+//	printf("%d\n", sizeof(a[3]));									//因为sizeof不参与运算，所以不存在越界的情况，只是根据数据类型类判断所占字节大小，16
 //	return 0;
 //}
 
@@ -930,10 +880,8 @@ int main()
 //int main()
 //{
 //	int a[5] = { 1, 2, 3, 4, 5 };
-//	int* ptr = (int*)(&a + 1);
-//	//&a为数组指针，int*[5]，+1后指向数组末端，然后强制转换成int*
-//	printf("%d,%d", *(a + 1), *(ptr - 1));
-//	//2，5
+//	int* ptr = (int*)(&a + 2);									//&a为数组指针，int*[5]，+1后指向数组末端，然后强制转换成int*
+//	printf("%d,%d", *(a + 2), *(ptr - 2));
 //	return 0;
 //}
 
@@ -954,50 +902,43 @@ struct Test
 
 //int main()
 //{
-//	printf("%p\n", p + 0x1);
-//	//p
-//	//类型：struct Test*
-//	//大小：20字节
-//	//0x00100000+0x1==0x00100014
-//	printf("%p\n", (unsigned long)p + 0x00000001);
-//	//强制转换成了无符号整型0x00100000+0x00000001==0x00100001
-//	printf("%p\n", (unsigned int*)p + 0x00000001);
-//	//强制转换成了无符号整型指针类型，0x00100000+0x00000001==0x00100004
+//	printf("%zd\n", sizeof(struct Test));
+//	printf("%p\n", p + 0x1);														//p	//类型：struct Test*	//大小：20字节	//0x00100000+0x1==0x00100014
+//	printf("%p\n", (unsigned long)p + 0x00000001);									//强制转换成了无符号整型0x00100000+0x00000001==0x00100001
+//	printf("%p\n", (unsigned int*)p + 0x00000001);									//强制转换成了无符号整型指针类型，0x00100000+0x00000001==0x00100004
 //	return 0;
 //}
 
 //int main()
 //{
-//	int a[3][2] = { (0, 1), (2, 3), (4, 5) };
-//	//(,)逗号表达式，结果为最后的，所以数组初始化为{1,3,5,0,0,0}
+//	int a[3][2] = { (0, 1), (2, 3), (4, 5) };										//(,)逗号表达式，结果为最后的，所以数组初始化为{1,3,5,0,0,0}
 //	int* p;
-//	p = a[0];
-//	//a[0]为第一个一维数组名，即一维数组首元素的地址
-//	printf("%d", p[0]);
-//	//*(p+0)，1
+//	//int (*p)[2];
+//	p = a[0];																		//a[0]为第一个一维数组名，即一维数组首元素的地址
+//	printf("%d %p", p[0], p[0]);																//*(p+0)，1
 //	return 0;
 //}
 
- //假设环境是x86环境，程序输出的结果是啥？
+//假设环境是x86环境，程序输出的结果是啥？
 
-//int main()
-//{
-//	int a[5][5];
-//	int(*p)[4];
-//	p = a;
-//	//a为第一个一维数组的地址，即数组指针，类型为int*[5]
-//	//赋予p后强制转换成了int*[4]
-//	printf("%p,%d\n", &p[4][2] - &a[4][2], &p[4][2] - &a[4][2]);
-//	//&p[4][2]为二维数组的第19个元素的地址
-//	//&a[4][2]为二维数组a的第23个元素的地址
-//	//%d的结果为-4
-//	//%p为无符号整型类型，所以读取的是补码
-//	//10000000000000000000000000000100原
-//	//11111111111111111111111111111011反
-//	//11111111111111111111111111111100补
-//	//FF FF FF FC
-//	return 0;
-//}
+int main()
+{
+	int a[5][5];
+	int(*p)[4];
+	p = a;
+	//a为第一个一维数组的地址，即数组指针，类型为int*[5]
+	//赋予p后强制转换成了int*[4]
+	printf("%p,%d\n", &p[4][2] - &a[4][2], &p[4][2] - &a[4][2]);
+	//&p[4][2]为二维数组的第19个元素的地址
+	//&a[4][2]为二维数组a的第23个元素的地址
+	//%d的结果为-4
+	//%p为无符号整型类型，所以读取的是补码
+	//10000000000000000000000000000100原
+	//11111111111111111111111111111011反
+	//11111111111111111111111111111100补
+	//FF FF FF FC
+	return 0;
+}
 
 //int main()
 //{

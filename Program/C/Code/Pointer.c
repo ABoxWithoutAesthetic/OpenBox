@@ -971,3 +971,64 @@ struct Test
 //	char arr1[50] = "我是你爹";
 //	return 0;
 //}
+int Compare_int(const void* x, const void* y)
+{
+	assert(x && y);
+	return *((int*)x) - *((int*)y);
+}
+void Bubble_Swap(void* p1,void*p2,int width)
+{
+	for (int i = 0; i < width; i++)
+	{
+		char temp = ((char*)p2)[i];
+		((char*)p2)[i] = ((char*)p1)[i];
+		((char*)p1)[i] = temp;
+	}
+}
+void Bubble_Sort(void* base,int size,int width,int (*Compare_Sort)(int,int))
+{
+	assert(base&&Compare_Sort);
+	int input = 0;
+	for (int i = 0; i < size-1; i++)
+	{
+		for (int j = 0; j < size - 1 - i; j++)
+		{
+			if (Compare_Sort((char*)base + j * width, (char*)base + (j + 1) * width) > 0)
+			{
+				Bubble_Swap(((char*)base + j * width), ((char*)base + (j + 1) * width),width);
+				input = 1;
+			}
+		}
+		if (input == 0)
+		{
+			return;
+		}
+	}
+}
+int Compare_Char(const void* x,const void* y)
+{
+	assert(x && y);
+	return *((char*)x) - *((char*)y);
+}
+//int main()
+//{
+//	int a[10] = {10,9,8,7,6,5,4,3,2,1};
+//	int sz = sizeof(a) / sizeof(a[0]);
+//	for (int i = 0; i < sz; i++)
+//	{
+//		printf("%d ",a[i]);
+//	}
+//	printf("\n");
+//	Bubble_Sort(a,sz,4, Compare_int);
+//	for (int i = 0; i < sz; i++)
+//	{
+//		printf("%d ", a[i]);
+//	}
+//	printf("\n");
+//	char b[] = "helloworld";
+//	int sz1 = sizeof(b) / sizeof(b[0]);
+//	printf("%s\n",b);
+//	Bubble_Sort(b,sz1,1,Compare_Char);
+//	printf("%s\n", b);
+//	return 0;
+//}

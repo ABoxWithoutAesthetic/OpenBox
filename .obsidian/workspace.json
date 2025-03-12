@@ -75,7 +75,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Program/C/C语言.md",
+                "file": "Program/UE/UE功能模块/LocalizationDashboard.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -90,7 +90,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "C语言"
+              "title": "LocalizationDashboard"
             }
           }
         ],
@@ -168,8 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 519.5,
-    "collapsed": true
+    "width": 519.5
   },
   "right": {
     "id": "81d39f3c913d92b7",
@@ -288,10 +287,10 @@
   },
   "active": "801a916ea0adfaa9",
   "lastOpenFiles": [
+    "Program/C/C语言.md",
     "Program/C/C语言.md.baiduyun.uploading.cfg",
     "Program/UE/UE功能模块/UMG.md",
     "ComfyUI_SVD.md",
-    "Program/C/C语言.md",
     "Program/C/教程课件/第11讲：深入理解指针(1).pdf",
     "Houdini/Node.md",
     "Houdini/Pyhton.md",

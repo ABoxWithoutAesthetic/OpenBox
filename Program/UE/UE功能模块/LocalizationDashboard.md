@@ -35,3 +35,28 @@
 
 - 打包本地化语言：项目设置勾选要打包的语种
   - ![Pasted image 20250210164057.png|700](../../../图片/Pasted%20image%2020250210164057.png)
+# .po文件转excel
+- 安装依赖库`pip install polib openpyxl pandas`
+- 如果警告不是最新，更新python环境`python -m pip install --upgrade pip`
+- 书写脚本
+~~~Python
+import polib
+from openpyxl import Workbook
+
+# 创建Excel工作簿
+wb = Workbook()
+ws = wb.active
+ws.append(["原文（msgid）", "译文（msgstr）"])  # 添加标题行
+
+# 读取.po文件
+po_file = "your_file.po"
+po = polib.pofile(po_file)
+
+# 遍历条目并写入Excel
+for entry in po:
+    ws.append([entry.msgid, entry.msgstr])
+
+# 保存Excel文件
+wb.save("output.xlsx")
+~~~
+- 运行脚本转换`pyhton 脚本.py`
